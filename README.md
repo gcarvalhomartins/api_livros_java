@@ -1,22 +1,22 @@
-# OLÁ, SEJA BEM VINDO AO PROJETO API DE LIVROS
+# 📚 Bem-vindo ao Projeto API de Livros
 
-## Este projeto tem como objetivo uma api para realizar o crud com a linguagem java, e nada melhor do que livros não é mesmo ??? rsrsrs.
+Este projeto tem como objetivo criar uma API para realizar operações CRUD utilizando a linguagem Java. E que tema melhor para explorar do que livros, não é mesmo? 📖😄
 
-# REQUISITOS MINÍMOS PARA RODAR O PROJETO. 
-## 1. Ter java 17 instalado e configurado na sua máquina.
-## 1.1 Ter uma IDE para realizar a compilação do código.
-## 2. Ter o insominia ou Postman para realizar os posts ou gets da api.
+## 🚀 Requisitos Mínimos
 
-# FLUXO DO PROJETO.
+1. **Java 17**: Certifique-se de ter o Java 17 instalado e configurado em sua máquina.
+2. **IDE**: Utilize uma IDE de sua escolha para compilar e executar o código.
+3. **Insomnia ou Postman**: Ferramentas recomendadas para testar os endpoints da API (POST, GET, etc.).
 
-## Ainda estamos construindo todo o fluxo e andamento.
+## 🛠️ Fluxo do Projeto
 
-# O QUE ESTA FUNCINANDO ??? 
+Estamos em processo de construção e desenvolvimento do fluxo e das funcionalidades da API. Fique ligado para futuras atualizações!
 
-## 1. Conseguimos realizar o CRUD, com os livros.
+## ✅ Funcionalidades Implementadas
 
-# O QUE FALTA ??? 
-## 1. Nosso professor pediu para adicionar uma view para consumir a api.
-## 2. Ainda precisamos realizar a conexão ao banco de dados, estamos utilizando apenas uma lista para realizar uma simulação de como sera inserido os livros.
+1. **CRUD de Livros**: Atualmente, já é possível realizar as operações de criação, leitura, atualização e exclusão de livros através da API.
 
+## 🔧 Funcionalidades a Implementar
 
+1. **Integração com Front-end**: Nosso professor solicitou a adição de uma interface visual para consumir a API.
+2. **Conexão com Banco de Dados**: Até o momento, estamos utilizando uma lista em memória para simular a inserção de livros. A conexão com o banco de dados ainda está pendente.
