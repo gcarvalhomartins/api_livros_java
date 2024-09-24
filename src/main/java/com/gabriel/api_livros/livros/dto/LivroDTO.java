@@ -1,6 +1,8 @@
 package com.gabriel.api_livros.livros.dto;
 
-public class TarefaDTO {
+import java.util.Map;
+
+public class LivroDTO {
     private Long id;
     private String titulo;
     private String descricao;
@@ -22,6 +24,9 @@ public class TarefaDTO {
     }
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+    public Map<Long, LivroDTO> keySet() {
+        throw new UnsupportedOperationException("Unimplemented method 'keySet'");
     }
 
 

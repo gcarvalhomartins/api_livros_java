@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.gabriel.api_livros.livros.dto.TarefaDTO;
-import com.gabriel.api_livros.livros.facade.TarefasFacade;
+import com.gabriel.api_livros.livros.dto.LivroDTO;
+import com.gabriel.api_livros.livros.facade.LivrosFacade;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,35 +22,35 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-@RequestMapping(value = "/tarefas", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/livros", produces = MediaType.APPLICATION_JSON_VALUE)
 
 
-public class TarefasApi {
+public class LivrosApi {
     @Autowired
-    private TarefasFacade tarefasFacade;
+    private LivrosFacade livrosFacade;
 
     @PostMapping
     @ResponseBody
-    public TarefaDTO criar(@RequestBody TarefaDTO tarefaDTO){
-       return tarefasFacade.criar(tarefaDTO);
+    public LivroDTO criar(@RequestBody LivroDTO livroDTO){
+       return livrosFacade.criar(livroDTO);
     };
 
-    @PutMapping("/{tarefaId}")
+    @PutMapping("/{livroId}")
     @ResponseBody
-    public TarefaDTO atualizar( @PathVariable("tarefaId") Long tarefaId, @RequestBody TarefaDTO tarefaDTO){
-        return tarefasFacade.atualizar(tarefaDTO,tarefaId);
+    public LivroDTO atualizar( @PathVariable("livroId") Long livroId, @RequestBody LivroDTO livroDTO){
+        return livrosFacade.atualizar(livroDTO,livroId);
     };
 
     @GetMapping
     @ResponseBody
-    public List<TarefaDTO> getAll() {
-        return tarefasFacade.getAll();
+    public List<LivroDTO> getAll() {
+        return livrosFacade.getAll();
     }
 
-    @DeleteMapping("/{tarefaId}")
+    @DeleteMapping("/{livroId}")
     @ResponseBody
-    public String deletar(@PathVariable("tarefaId") Long tarefaId ) {
-        return tarefasFacade.delete(tarefaId);
+    public String deletar(@PathVariable("livroId") Long livroId ) {
+        return livrosFacade.delete(livroId);
     }
     
 
