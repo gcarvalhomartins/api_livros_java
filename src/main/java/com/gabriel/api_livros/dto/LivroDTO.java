@@ -1,4 +1,4 @@
-package com.gabriel.api_livros.livros.dto;
+package com.gabriel.api_livros.dto;
 
 import lombok.Data;
 

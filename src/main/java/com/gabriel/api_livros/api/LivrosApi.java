@@ -1,4 +1,4 @@
-package com.gabriel.api_livros.livros.api;
+package com.gabriel.api_livros.api;
 
 import java.util.List;
 
@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gabriel.api_livros.livros.dto.LivroDTO;
-import com.gabriel.api_livros.livros.facade.LivrosFacade;
+import com.gabriel.api_livros.dto.LivroDTO;
+import com.gabriel.api_livros.facade.LivrosFacade;
+
 
 @RestController
 @RequestMapping(value = "/livros", produces = MediaType.APPLICATION_JSON_VALUE)

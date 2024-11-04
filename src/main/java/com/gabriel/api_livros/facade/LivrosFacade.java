@@ -1,4 +1,4 @@
-package com.gabriel.api_livros.livros.facade;
+package com.gabriel.api_livros.facade;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gabriel.api_livros.livros.dto.LivroDTO;
-import com.gabriel.api_livros.livros.model.Livro;
+import com.gabriel.api_livros.dto.LivroDTO;
+import com.gabriel.api_livros.model.Livro;
 import com.gabriel.api_livros.livros.repository.LivroRepository;
 
 @Service
