@@ -3,12 +3,10 @@ package com.gabriel.api_livros;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.gabriel.api_livros")
 public class ApiLivrosApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(ApiLivrosApplication.class, args);
-		System.out.println("API FUNFADA! =)");
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ApiLivrosApplication.class, args);
+        System.out.println("API FUNFADA! =)");
+    }
 }
