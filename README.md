@@ -19,4 +19,4 @@ Estamos em processo de construção e desenvolvimento do fluxo e das funcionalid
 ## 🔧 Funcionalidades a Implementar
 
 1. **Integração com Front-end**: Nosso professor solicitou a adição de uma interface visual para consumir a API.
-2. **Conexão com Banco de Dados**: Até o momento, estamos utilizando uma lista em memória para simular a inserção de livros. A conexão com o banco de dados ainda está pendente.
+2. **Conexão com Banco de Dados**: O banco de dados utilizado foi o mysql utilizando o spring boot.
